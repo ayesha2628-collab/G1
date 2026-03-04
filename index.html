@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Groceries Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-sans">
+    <div class="container min-h-screen bg-[url('img/Image.png')] bg-center bg-cover px-4 md:px-10 lg:px-28 py-5 relative">
+        <nav class="flex items-center justify-between">
+            <img src="img/logo.png" class="w-32 md:w-40 cursor-pointer">
+            <ul class="hidden md:flex flex-1 justify-center space-x-5 text-white text-lg">
+                <li><a href="#" class="no-underline hover:text-yellow-300">Home</a></li>
+                <li><a href="#" class="no-underline hover:text-yellow-300">About</a></li>
+                <li><a href="#" class="no-underline hover:text-yellow-300">Feature</a></li>
+                <li><a href="#" class="no-underline hover:text-yellow-300">Contact</a></li>
+            </ul>
+            <img src="img/cart.png" class="w-8 cursor-pointer">
+        </nav>
+
+        <div class="text-white mt-32 md:mt-48 max-w-full md:max-w-xl text-center md:text-left">
+            <h1 class="text-4xl md:text-6xl font-semibold leading-snug">
+                Groceries<br>delivery in <span class="font-light">15 mins</span>
+            </h1>
+            <p class="mt-4 md:mt-6 text-base md:text-lg">Groceries ipsum dolor sit, amet consectetur adipisicing elit. Soluta inventore esse ad cum unde delectus numquam?</p>
+            <div class="mt-6 md:mt-10 flex flex-col sm:flex-row items-center md:items-start gap-4">
+                <a href="#"
+                    class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium hover:bg-transparent hover:text-white hover:border-yellow-300 border border-transparent transition duration-300">
+                    Order Now
+                </a>
+                <a href="#" class="text-white hover:text-yellow-300 flex items-center gap-2">
+                    Download Now <span class="text-lg inline-block rotate-90">&#10148;</span>
+                </a>
+            </div>
+        </div>
+
+        <img src="img/grocery-image.png"
+            class="w-full md:w-1/2 lg:w-1/2 xl:absolute bottom-0 right-0 mt-10 md:mt-0">
+    </div>
+</body>
+
+</html>
